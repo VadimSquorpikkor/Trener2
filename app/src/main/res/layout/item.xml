@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="10dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/listResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Result"
+                android:layout_gravity="top|center_horizontal"
+                android:textSize="24sp">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/listDayBestWeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DayBestWeight">
+            </TextView>
+
+            <TextView
+                android:id="@+id/listDayQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DayQuantity">
+            </TextView>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/listNewWeight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/listHistoryBest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView">
+                </TextView>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/listDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:layout_gravity="bottom|right"
+                android:layout_marginRight="5dp">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
